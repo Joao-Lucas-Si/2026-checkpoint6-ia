@@ -1,13 +1,10 @@
 pydantic
-rich
 python-dotenv
 langchain
 langchain-ollama
-prompt_toolkit
 langchain_classic
 tiktoken
 langchain-community<0.4.2
-pymupdf
 chromadb
 ragas
 pandas

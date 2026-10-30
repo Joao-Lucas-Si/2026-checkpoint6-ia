@@ -12,11 +12,6 @@ from src.interface import criar_gradio
 from src.agent import gerar_resposta_agent
 # from src.evaluate import avaliar
 from time import sleep
-
-from rich.console import Console
-from rich.progress import Progress
-
-from rich.theme import Theme
 import gradio as gr
 # from io import StringIO
 

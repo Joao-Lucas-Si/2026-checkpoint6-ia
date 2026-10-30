@@ -8,15 +8,6 @@ from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharac
 from langchain_community.vectorstores import Chroma
 
 def rag_load():
-    # loader = PyMuPDFLoader("documento.pdf")
-    # paginas = loader.load()
-    # print(f"Páginas carregadas: {len(paginas)}")
-    # print(f"Metadados da pág. 1: {paginas[0].metadata}")
-    # → {'source': 'manual.pdf', 'page': 0, 'total_pages': 24, ...}
-    # print(f"Trecho da pág. 1:\n{paginas[0].page_content[:300]}")
-    # return paginas
-    # Carregar múltiplos PDFs de uma vez
-    
     
     prefixo = "data/documents"
     
@@ -24,10 +15,7 @@ def rag_load():
     
     markdowns = [(doc, open(f"{prefixo}/{doc}", "r").read()) for doc in docs]
     return markdowns
-    # paginas = []
-    # for pdf in pdfs:
-    #     paginas.extend(PyMuPDFLoader(f"assets/documentos/{pdf}").load())
-    # return paginas
+
 
 
 def split(paginas: list[tuple[str, str]]):

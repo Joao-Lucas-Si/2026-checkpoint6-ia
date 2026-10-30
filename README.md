@@ -12,6 +12,10 @@
   
 ---
 
+imagem de comprovação do projeto rodando:
+
+![imagem](print.png)
+
 # Domínio
 
 O domínio escolhido pelo grupo foi **Agente de Inteligência Artificial aplicado à assistência de escrita**.
@@ -192,6 +196,8 @@ ou use o gradio em caso de hot reload
 ```
 gradio main.py
 ```
+
+com o projeto rodado, abra a url que aparecerá no terminal
 
 # Limitações atuais
 
