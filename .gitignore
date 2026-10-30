@@ -1,0 +1,8 @@
+.env
+**/__pycache__/
+venv
+/**/.vscode
+/content/**
+/.gradio/**
+/**/db/**
+/**/logs/**

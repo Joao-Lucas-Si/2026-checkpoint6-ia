@@ -1,0 +1,7 @@
+- Manter as informações mais importantes do texto
+- Não adicionar informações que não estajam no conteudo original
+- Remover repetições e dados pouco importantes
+- Guardar conceitos,numeros,nomes e datas importantes
+- Gerar um resumo de forma clara
+- Usar linguagem simples e direta
+- Não alterar o significado final
