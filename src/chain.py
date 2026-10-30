@@ -53,7 +53,7 @@ def pipeline(
     data: dict = {},
     user_message: str,
     usar_rag: bool = False,
-    persona: str = "assets/prompt/aux/persona.md",
+    persona: str = "assets/prompt/auxiliar/persona.md",
 ) -> str | T:
     # return retriever.similarity_search(message)
     base = open("assets/prompt/templates/base.md").read()
@@ -99,9 +99,9 @@ def pipeline(
         {
             "tipo": "",
             "objetivo": open(
-                f"assets/prompt/aux/{system}/{system}-objetivo.md"
+                f"assets/prompt/auxiliar/{system}/{system}-objetivo.md"
             ).read(),
-            "regras": open(f"assets/prompt/aux/{system}/{system}-regras.md").read(),
+            "regras": open(f"assets/prompt/auxiliar/{system}/{system}-regras.md").read(),
             "persona": open(persona).read(),
             "input": message,
         }
